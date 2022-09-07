@@ -22,3 +22,6 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 gsettings set org.gnome.desktop.background picture-uri none
 gsettings set org.gnome.desktop.background primary-color '#FF0000'
 gsettings set org.gnome.desktop.background color-shading-type 'solid'
+
+#Never Turn Off Screen
+gsettings set org.gnome.desktop.session idle-delay 0
